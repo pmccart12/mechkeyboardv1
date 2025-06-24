@@ -1,0 +1,10 @@
+/ {
+    behaviors {
+        snip_tool: macro {
+            compatible = "zmk,behavior-macro";
+            label = "Snip Tool Macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(KC_S))>; // Windows + Shift + S
+        };
+    };
+};
