@@ -18,11 +18,11 @@
 
         default_layer {
             bindings = <
-    #A        #B        #C       #D        #E          #F         #F        #G           #H        #I        #J
-#1  &kp ESC   &kp Q     &kp W    &kp E     &kp R       &kp T      &kp Y     &kp U        &kp I     &kp O     &kp P    &kp BSPC
-#2  &kp TAB   &kp A     &kp S    &kp D     &kp F       &kp G      &kp H     &kp J        &kp K     &kp L     &kp SEMI &kp SQT
-#3  &kp LSHFT &kp Z     &kp X    &kp C     &kp V       &kp B      &kp N     &kp M        &kp COMMA &kp DOT   &kp FSLH &kp ENTER
-#4  &kp LCTRL &kp LGUI  &kp LALT &kp BSLH  &to DEFAULT &kp SPACE  &trans    &to NUM_MODS &kp LEFT  &kp RIGHT &kp UP   &kp DOWN
+    #A        #B        #C        #D          #E              #F                #G               #H                  #I               #J
+#1  &kp F5   &kp F3     &kp F1    &kp ESC     &kp GRAVE       &kp NUMBER_1      &kp NUMBER_2     &kp NUMBER_3        &kp NUMBER_4     &kp NUMBER_5
+#2  &kp F6   &kp F4     &kp F2    &kp TAB     &kp Q           &kp W             &kp E            &kp R               &kp T            &kp NUMBER_6           
+#3  
+#4  
 #5
 #6
 #7
