@@ -1,1 +1,18 @@
+// SPDX-License-Identifier: MIT
+// BOKshield.dtsi
+
+/ {
+    compatible = "zmk,shield";
+
+    matrix {
+        compatible = "zmk,matrix";
+
+        rows = <&gpio0 31 &gpio0 29 &gpio0 02 &gpio1 15 &gpio1 13 &gpio1 11 &gpio0 10 &gpio0 09 %gpio1 02 &gpio1 07>;
+        cols = <&gpio0 06 &gpio0 08 &gpio0 17 &gpio0 20 &gpio0 22 &gpio0 24 &gpio1 00 &gpio0 11 %gpio1 04 &gpio1 06>;
+
+        diodes = "col2row";  // or "row2col" depending on your PCB wiring
+    };
+
+    // Optional: encoder pins, LEDs, etc.
+};
 
